@@ -1,5 +1,8 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 a {
   text-decoration: none;
@@ -45,9 +48,14 @@ header {
   max-height: 1057px;
 }
 .header-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .label {
   width: 140px;
@@ -89,6 +97,8 @@ header {
 }
 .menu a:hover {
   color: #fa5c65;
+  -webkit-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
 .icon-menu {
@@ -114,6 +124,8 @@ header {
 }
 .header-social a:hover {
   color: #ff6f7b;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 .header-social-twitter:before {
@@ -168,6 +180,8 @@ h3.title-dot, h4.title-dot {
   background-color: #fa5c65;
   border-radius: 7px;
   padding: 22px 45px;
+  -webkit-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
   transition: background-color 0.3s ease;
   margin-top: 30px;
 }
@@ -179,9 +193,14 @@ h3.title-dot, h4.title-dot {
   padding: 80px 0;
 }
 .pluses .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .pluses-item {
   max-width: 260px;
@@ -200,6 +219,8 @@ h3.title-dot, h4.title-dot {
   font-family: "icomoon";
   content: "\ea3c";
   padding-left: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .arrow-btn:hover:after {
@@ -233,9 +254,14 @@ h3.title-dot, h4.title-dot {
   margin: 20px 0;
 }
 .team .container .workers {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .team-tagline {
   font-size: 16px;  
@@ -279,8 +305,12 @@ footer {
 .wrap-content {
   padding: 26px 0;
   border-top: 1px solid #b9c0c6;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; 
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; 
 }
 .copyrights {
   font-size: 13px; 
@@ -293,6 +323,8 @@ footer {
 }
 .footer-social a:hover  {
   color: #314a5b;
+  -webkit-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
 .footer-social-twitter:before {
